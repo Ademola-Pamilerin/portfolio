@@ -1,0 +1,151 @@
+.claim {
+  background-color: grey;
+  z-index: 2000;
+  opacity: 0.9;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100vw; /* viewport width */
+  height: 100vh; /* viewport height */
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.modal_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+}
+.modal_container .project_description {
+  width: 80%;
+  height: auto;
+}
+.project_description .project_title {
+  color: blue;
+  font-size: 25px;
+  justify-content: center;
+  width: 100%;
+  overflow-wrap: break-word;
+  text-align: center;
+}
+
+.project_overview .overview {
+  font-size: 15px;
+  color: brown;
+  font-weight: 500;
+  font-style: italic;
+}
+.project_overview .description {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 20px;
+}
+.project_role {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+.project_role .overview {
+  font-size: 15px;
+  color: brown;
+  font-weight: 500;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  text-align: start;
+}
+.project_role ul {
+  width: 95%;
+  list-style: cambodian;
+  display: flex;
+  flex-flow: column;
+}
+.project_role ul li {
+  font-size: 15px;
+}
+
+.project_skills {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.project_skills .overview {
+  font-size: 15px;
+  color: brown;
+  font-weight: 500;
+  font-style: italic;
+  text-align: left;
+  width: 100%;
+  text-align: start;
+}
+.project_skills ul {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project_skills ul li {
+  width: auto;
+  padding: 2px;
+  font-size: 15px;
+}
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.cancel {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: wheat;
+  cursor: pointer;
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #d12b2b;
+}
+
+.svg-icon circle {
+  stroke: #d12b2b;
+  stroke-width: 1;
+  width: 75px;
+  height: 80px;
+}
+@media only screen and (min-width: 600px) {
+  /* .claim {
+    overflow: none !important;
+  }
+  .claim .modal_container {
+    overflow: none !important;
+  } */
+  .project_description .overview,
+  .project_role .overview,
+  .project_skills .overview {
+    font-size: 20px;
+  }
+  .project_skills ul li,
+  .project_role ul li {
+    font-size: 20px;
+  }
+  .project_overview .description {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
