@@ -87,7 +87,7 @@ function Project() {
               </div>
               <div className="project__meta absolute">
                 <h5 className="project__text">Software Engineer</h5>
-                <h4 className="project__text">Open Source</h4>
+                <h4 className="project__text">Freelance</h4>
                 <button onClick={recent_click} className="project__btn">
                   View Details
                 </button>

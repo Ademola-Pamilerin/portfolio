@@ -17,7 +17,7 @@ const Hinge = (props) => {
         <div className="project_overview">
           <span className="overview">overview:</span>
           <p className="description">
-            THe need of the firm is to get a platform which can redirect the
+            The need of the firm is to get a platform which can redirect the
             response from their Frontend page, rearranges it and send it as a
             mail to the HR team (A mail Redirector)
           </p>

@@ -1,6 +1,5 @@
 import "./ogac.css";
 const OgacSIteData = (props) => {
-  
   //create modal
   //then wite eveything in the modal
   return (
@@ -37,13 +36,28 @@ const OgacSIteData = (props) => {
             interface for the application using Figma and Adobe XD
           </li>
           <li className="role_list">
-            Wrote supported code using Reactjs and Nextjs on the frontend and
-            Nodejs express on the backend
+            Wrote supported code in React and Next JS that met the design
+            specifications and deployed to production within 10 weeks, resulting
+            in a 35% increase in user satisfaction.
           </li>
           <li className="role_list">
             Implemented both unit and integrated test for the application to
             prevent application breakageImplemented continuous integraton and
             delivery by creating delivery pipelines using Github and Travis cli
+          </li>
+
+          <li className="role_list">
+            Used Node JS to write supported Backend of the application and Mongo
+            DB for the application database
+          </li>
+          <li className="role_list">
+            Used Docker and Kubernetes in Conjunction with Travis CI to increase
+            ease development process
+          </li>
+          <li className="role_list">
+            Implemented a continuous integration and continuous delivery (Cl/CD)
+            pipeline to automate the testing process and increase development to
+            production by 20%.
           </li>
           <li className="role_list">
             Deployed the application frontend on vercel then the backend on

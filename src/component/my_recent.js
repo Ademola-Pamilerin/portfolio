@@ -13,12 +13,12 @@ const Recent = (props) => {
         </svg>
       </div>
       <div className="project_description">
-        <h2 className="project_title">Open Source Project</h2>
+        <h2 className="project_title">Freelance Project</h2>
         <div className="project_overview">
           <span className="overview">overview:</span>
           <p className="description">
-            This project is developed to show my knowledeg on deployment and
-            creation of delivery pipelines
+            This project is developed to show my knowledge on backend deployment
+            using postgres and creation of delivery pipelines
           </p>
         </div>
       </div>
@@ -27,7 +27,7 @@ const Recent = (props) => {
         <ul className="role_container">
           <li className="role_list">
             Wrote supported code using Reactjs and Nextjs on the frontend and
-            Nodejs express on the backend
+            Node Typescript express on the backend
           </li>
           <li className="role_list">
             Implemented the techniques and architecture of DevOps by creating
@@ -37,12 +37,14 @@ const Recent = (props) => {
             Enables automatic build and deploy using Travis CI
           </li>
           <li className="role_list">
-            IMplemeted load balancing and routes redirect using Nginx
+            Used PostgreSQL Node ORM (Sequelize) as main database
+          </li>
+          <li className="role_list">
+            Implemeted load balancing and routes redirect using Nginx
           </li>
           <li className="role_list">
             Used Redis as in memory database and Mongodb as main database
           </li>
-
           <li className="role_list">
             Created a production build on AWS Elastic Container Services and
             Elastic BeanStalk
@@ -50,7 +52,7 @@ const Recent = (props) => {
 
           <li className="role_list">
             Created a production build database using AWS ElasticCache for Redis
-            and Mongodb Atlas on AWS
+            and PostgreSQL on AWS
           </li>
         </ul>
       </div>
@@ -61,7 +63,6 @@ const Recent = (props) => {
           <li>Node JS,</li>
           <li>Travis CI,</li>
           <li>Next JS,</li>
-          <li>Mongo Db,</li>
           <li>Tailwind,</li>
           <li>Vanilla CSS,</li>
           <li>Express,</li>
@@ -70,6 +71,8 @@ const Recent = (props) => {
           <li>HTML, </li>
           <li>CSS</li>
           <li>Nginx</li>
+          <li>Sequelize</li>
+          <li>PostgreSQL</li>
         </ul>
       </div>
     </div>

@@ -25,6 +25,7 @@ p.heading.p__color {
   background-color: #191919;
   padding: 55px;
   transition: 0.4s ease;
+  height: 25rem;
 }
 .service__box:hover {
   transform: translateY(5px);
@@ -52,9 +53,22 @@ h1.service__text {
   font-family: Poppins, sans-serif;
   padding: 10px 0px;
 }
+.toggler {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  flex-flow: row;
+}
 /* RESPONSIVE */
 @media only screen and (max-width: 1024px) {
+  .toggler {
+    display: flex;
+    flex-flow: column;
+  }
   .service__box {
     padding: 32px;
+    height: 20rem;
   }
 }

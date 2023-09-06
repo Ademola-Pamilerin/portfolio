@@ -1,13 +1,13 @@
 .claim {
-  background-color: grey;
+  background-color: rgb(7, 7, 7);
   z-index: 2000;
-  opacity: 0.9;
+  /* opacity: 0.9; */
   position: fixed;
   top: 0;
   bottom: 0;
   width: 100vw; /* viewport width */
-  height: 100vh; /* viewport height */
-  overflow-y: scroll;
+  /* height: 100vh; viewport height */
+  overflow-y: hidden;
   overflow-x: hidden;
   display: flex;
 }
@@ -24,10 +24,17 @@
 .modal_container .project_description {
   width: 80%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.project_description .project_overview{
+  width: 100%;
 }
 .project_description .project_title {
-  color: blue;
-  font-size: 25px;
+  color: rgb(166, 166, 240);
+  font-size: 30px;
   justify-content: center;
   width: 100%;
   overflow-wrap: break-word;
@@ -35,15 +42,17 @@
 }
 
 .project_overview .overview {
-  font-size: 15px;
-  color: brown;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 25px;
+  color: rgb(166, 166, 240);
+  font-weight: 700;
+  width: 100%;
 }
 .project_overview .description {
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 500;
   line-height: 20px;
+  color: rgb(63, 63, 88);
+  font-style: oblique;
 }
 .project_role {
   width: 80%;
@@ -53,13 +62,13 @@
   align-items: center;
 }
 .project_role .overview {
-  font-size: 15px;
-  color: brown;
-  font-weight: 500;
-  font-style: italic;
-  text-align: left;
   width: 100%;
   text-align: start;
+  color: rgb(166, 166, 240);
+  font-size: 30px;
+  justify-content: center;
+  width: 100%;
+  font-weight: 700;
 }
 .project_role ul {
   width: 95%;
@@ -69,6 +78,9 @@
 }
 .project_role ul li {
   font-size: 15px;
+  color: rgb(63, 63, 88);
+  font-size: 10px;
+  font-style: oblique;
 }
 
 .project_skills {
@@ -80,10 +92,9 @@
   margin-top: 0.5rem;
 }
 .project_skills .overview {
-  font-size: 15px;
-  color: brown;
-  font-weight: 500;
-  font-style: italic;
+  font-size: 25px;
+  color: rgb(166, 166, 240);
+  font-weight: 700;
   text-align: left;
   width: 100%;
   text-align: start;
@@ -98,6 +109,7 @@
   width: auto;
   padding: 2px;
   font-size: 15px;
+  color: rgb(63, 63, 88);
 }
 .svg-icon {
   width: 1em;

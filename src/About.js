@@ -1,8 +1,10 @@
 import React from "react";
 import "./About.css";
+
 function About() {
   const clicked = () => {
-    console.log("clicked");
+    window.location.href =
+      "https://drive.google.com/file/d/13Vh-CvzmZwibKDl3Qo8k4XcurTI643lX/view?usp=drive_link";
   };
   //  Up To Top Btn
   window.addEventListener("scroll", function () {

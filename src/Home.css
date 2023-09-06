@@ -35,6 +35,7 @@ h4.home__text {
 }
 .header {
   transition: 0.4s all ease;
+  height: 10vh;
 }
 .header.active {
   position: fixed;
@@ -77,12 +78,15 @@ li.sideNavbar {
   justify-content: center;
 }
 .home .logo img {
-  height: 30px;
+  height: 40px;
   position: absolute;
 }
 
 /* RESPONSIVE */
 @media only screen and (max-width: 768px) {
+  .logo img {
+    height: 35px;
+  }
   .header {
     justify-content: space-between;
   }
@@ -98,6 +102,9 @@ li.sideNavbar {
   }
 }
 @media only screen and (max-width: 425px) {
+  .logo img {
+    height: 30px;
+  }
   h2.home__text.pz__10 {
     font-size: 28px;
     padding: 5px 0 !important;
